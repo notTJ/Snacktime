@@ -16,6 +16,6 @@
 [submodule "napi-rs"]
 	path = napi-rs
 	url = https://github.com/napi-rs/napi-rs.git
-[submodule "wasm_bindgen"]
-        path = wasm_bindgen
+[submodule "wasm-bindgen"]
+        path = wasm-bindgen
         url = https://github.com/rustwasm/wasm-bindgen.git
