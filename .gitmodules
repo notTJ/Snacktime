@@ -1,0 +1,18 @@
+[submodule "chiselstrike"]
+	path = chiselstrike
+	url = https://github.com/notTJ/chiselstrike.git
+[submodule "matrix-rust-sdk-deno"]
+	path = matrix-rust-sdk-deno
+	url = https://github.com/notTJ/matrix-rust-sdk-deno.git
+[submodule "deno_bindgen"]
+	path = deno_bindgen
+	url = https://github.com/notTJ/deno_bindgen.git
+[submodule "snacktime-backend"]
+	path = snacktime-backend
+	url = https://github.com/notTJ/snacktime-backend.git
+[submodule "matrix-rust-sdk"]
+	path = matrix-rust-sdk
+	url = https://github.com/notTJ/matrix-rust-sdk.git
+[submodule "napi-rs"]
+	path = napi-rs
+	url = https://github.com/napi-rs/napi-rs.git
