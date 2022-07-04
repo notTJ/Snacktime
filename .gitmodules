@@ -1,9 +1,6 @@
 [submodule "chiselstrike"]
 	path = chiselstrike
 	url = https://github.com/notTJ/chiselstrike.git
-[submodule "matrix-rust-sdk-deno"]
-	path = matrix-rust-sdk-deno
-	url = https://github.com/notTJ/matrix-rust-sdk-deno.git
 [submodule "deno_bindgen"]
 	path = deno_bindgen
 	url = https://github.com/notTJ/deno_bindgen.git
