@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "tasks": {
+    "mxbind": "cd ./matrix-rust-sdk/bindings/matrix-sdk-crypto-deno/ && deno run -A ./cli.ts && cd ../../../"
+  }
+}
