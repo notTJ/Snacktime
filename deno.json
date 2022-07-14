@@ -1,6 +1,10 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
   "tasks": {
-    "mxbind": "cd ./matrix-rust-sdk/bindings/matrix-sdk-crypto-deno/ && deno run -A ./cli.ts && cd ../../../"
+    "mxbind": "rm -rf ./matrix-rust-sdk/target && cd ./matrix-rust-sdk/bindings/matrix-sdk-crypto-deno/ && deno run -A ./cli.ts && cd ../../../",
+    "mxbinde": "rm -rf ./matrix-rust-sdk/target && cd ./matrix-rust-sdk/bindings/matrix-sdk-crypto-deno/ && deno run -A ./cli.ts -- --workspace --exclude matrix-sdk-base --exclude matrix-sdk-common --exclude matrix-sdk-crypto --exclude matrix-sdk-qrcode --exclude matrix-sdk-sled --exclude matrix-sdk-store-encryption --exclude matrix-sdk-test --exclude matrix-sdk-test-macros && cd ../../../",
+    "mxbindec": "rm -rf ./matrix-rust-sdk/target && cd ./matrix-rust-sdk/bindings/matrix-sdk-crypto-deno/ && cargo clean && deno run -A ./cli.ts -- --workspace --exclude matrix-sdk-base --exclude matrix-sdk-common --exclude matrix-sdk-crypto --exclude matrix-sdk-qrcode --exclude matrix-sdk-sled --exclude matrix-sdk-store-encryption --exclude matrix-sdk-test --exclude matrix-sdk-test-macros && cd ../../../",
+    "extraExc": "NOT A COMMAND! matrix eclusions not found --exclude matrix-sdk --exclude matrix-sdk-appservice --exclude matrix-sdk-indexeddb",
+    "mxbind2": "cd ./matrix-rust-sdk-deno/ && deno run -A ./cli.ts && cd ../"
   }
 }
